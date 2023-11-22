@@ -1,0 +1,19 @@
+{
+    "name": "charity-widget",
+    "version": "1.0.0",
+    "description": "A charity support widget for company websites",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "engines": {
+      "node": "16.x"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "cors": "^2.8.5"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  
