@@ -1,5 +1,5 @@
 (function() {
-    // Load the widget GIF and popup content
+    // Ladda widget och modal i HTML
     const widgetHTML = `
         <div id="charity-widget" style="position: fixed; bottom: 10px; left: 10px; z-index: 1000;">
             <img src="https://uploads-ssl.webflow.com/5d9cc2c7b5891d21c8901fd2/5df520e1b0ebe722d03f9f82_dios_logo_cmyk_vit.png" style="width: 100px; height: 100px; cursor: pointer;">
@@ -11,10 +11,10 @@
             </div>
         </div>`;
 
-    // Append widget HTML to the body
+    // Addera widget och modal till sidan
     document.body.insertAdjacentHTML('beforeend', widgetHTML);
 
-    // Event listeners
+    // Event listeners för att visa och stänga modal
     document.getElementById("charity-widget").addEventListener("click", function() {
         document.getElementById("charity-overlay").style.display = "block";
     });
